@@ -1,0 +1,16 @@
+ class LeapYear{
+public static void main(String[] args)
+
+{ 
+   int year = 2022; 
+     while (year <= 2030 )
+   
+   {
+        System.out.println(year + " Is "+ ((year % 4 == 0)? "" : "not")+" a Leap Year"); 
+        year++; 
+        
+       
+   }
+      
+ }
+}
